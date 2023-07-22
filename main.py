@@ -1,34 +1,12 @@
-first_name: str = "Bro"
-last_name: str = "lolo"
-full_name: str = first_name + " " + last_name
-#print(type(name))
-print("Hello " + full_name)
+name: str = "bro code"
 
-age: int = 23
-age += 1
-#print(type(age))
-print(age)
-print("Your age is: " + str(age))
-
-height: float = 170.5
-#print(type(height))
-print(height)
-print("Your height is: " + str(height) + "cm")
-
-human: bool = False
-#print(type(human))
-print("Are you a human: " + str(human))
-print(human)
-
-name, age, attractive = "Bro", 23, True
-
-print(name)
-print(age)
-print(attractive)
-
-spongebob = patrick = sandy = squidward = 30
-
-print(spongebob)
-print(patrick)
-print(sandy)
-print(squidward)
+print(len(name))
+print(name.find("o"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.isalpha()) # false cause of the space
+print(name.count("o"))
+print(name.replace("o", "a"))
+print(name*3)
