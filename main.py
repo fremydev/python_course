@@ -1,12 +1,10 @@
-name: str = "bro code"
+x: int = i
+y: float = 2.0
+z: str = "3"
 
-print(len(name))
-print(name.find("o"))
-print(name.capitalize())
-print(name.upper())
-print(name.lower())
-print(name.isdigit())
-print(name.isalpha()) # false cause of the space
-print(name.count("o"))
-print(name.replace("o", "a"))
-print(name*3)
+float(x)
+int(y)
+int(z)
+str(x)
+str(y)
+str(z)
